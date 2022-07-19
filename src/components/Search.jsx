@@ -20,6 +20,7 @@ const Search = (props) => {
             <div className="search-box">
                 <p className="label">Search</p>
                 <input 
+                    placeholder="Type in a search word and press enter"
                     onChange={handleChange} 
                     onKeyDown={handleKeyPress} 
                     class="input-search" />
