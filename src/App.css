@@ -1,0 +1,140 @@
+.nav{
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  left: 0px;
+  top: 0px;
+  background-color: #292929;
+}
+.my-text{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 193px;
+  height: 60px;
+  left: 77px;
+  top: 40px;
+
+  border: 1px solid #FFFFFF;
+}
+.my-text-text{
+  position: absolute;
+  width: 156.7px;
+  height: 32.94px;
+  font-size:xx-large;
+  left: 96px;
+  top: 54px;
+  color: #FFFFFF;
+}
+.img-bg{
+  background-image: url('./assets/images/back-img.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  left: 0px;
+  top: 138px;
+
+}
+.home-text{
+  position: absolute;
+  width: 490px;
+  height: 282px;
+  left: 77px;
+  top: 247px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  /* background-color: #292929; */
+}
+.search-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  /* width: 1306px; */
+  height: 89px;
+  left: 77px;
+  right: 77px;
+  top: 751px;
+  /* background-color: #292929; */
+}
+.label{
+  width: 77px;
+  height: 31px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+.input-search{
+  width: 100%;
+  height: 54px;
+  border: 1px solid #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.movies{
+  position: absolute;
+  /* width: 100%; */
+  /* height: 31px; */
+  left: 67px;
+  right: 67px;
+  top: 888px;
+  /* background-color: aqua; */
+}
+.cat-label{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+.movie-frame{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+
+  position: absolute;
+  width: 100%;
+  /* height: 300px; */
+  left: 0px;
+  overflow-x: auto;
+  /* top: 937px; */
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 300px;
+  height: 300px;
+  background: #000000;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 300px;
+  height: 300px
+}
+.card > img{
+  height:100%;
+  margin: auto;
+}
