@@ -4,6 +4,8 @@ import './App.css'
 import Home from './components/Home';
 import Search from './components/Search';
 import Movies from './components/Movies';
+import Loader from './components/Loader';
+import Footer from './components/Footer';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -27,8 +29,10 @@ function App() {
       <Home />
       <Search loadCall={loadCall} callBack={callBack}/>
       {
-        search && <Movies search={search} />
+        search && <Movies loadCall={loadCall} search={search} />
       }
+
+      <Footer />
     </div>
   )
 }

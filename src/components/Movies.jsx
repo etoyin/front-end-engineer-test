@@ -9,7 +9,8 @@ const Movies = (props) => {
         .then(res => res.json())
         .then(res => {
             setMovies(res.Search);
-            console.log(res.Search)
+            props.loadCall(false);
+            // console.log(res.Search)
         })
     },[props.search])
 
