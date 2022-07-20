@@ -5,10 +5,10 @@
   left: 0px;
   top: 0px;
   background-color: #292929;
+  z-index: 2;
 }
 .my-text{
   box-sizing: border-box;
-
   position: absolute;
   width: 193px;
   height: 60px;
@@ -29,14 +29,16 @@
 .img-bg{
   background-image: url('./assets/images/back-img.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-color: #eb1f1f; */
+  /* background-attachment: fixed; */
+  background-position: -50px 0 0 0;
   /* background-position: center; */
   background-size: cover;
   position: absolute;
   width: 100%;
   height: 550px;
   left: 0px;
-  top: 138px;
+  top: 120px;
 
 }
 .home-text{
